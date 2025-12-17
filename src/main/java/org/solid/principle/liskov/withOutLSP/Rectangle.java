@@ -1,4 +1,4 @@
-package org.solid.principle.liskov;
+package org.solid.principle.liskov.withOutLSP;
 
 /*Subclasses should be substitutable for their base classes without affecting the
         correctness of the program.

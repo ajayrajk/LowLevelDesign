@@ -1,6 +1,8 @@
-package org.solid.principle.liskov;
+package org.solid.principle.liskov.withOutLSP;
 
-public class Square extends Rectangle{
+import org.solid.principle.liskov.withOutLSP.Rectangle;
+
+public class Square extends Rectangle {
 
     @Override
     public void setWidth(int width) {

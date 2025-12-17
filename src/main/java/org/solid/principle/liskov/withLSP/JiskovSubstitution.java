@@ -1,4 +1,6 @@
-package org.solid.principle.liskov;
+package org.solid.principle.liskov.withLSP;
+
+
 
 public class JiskovSubstitution {
 
@@ -9,10 +11,14 @@ public class JiskovSubstitution {
     misbehave when given a Square.*/
 
     public static void main(String[] args) {
-        Rectangle rect = new Square();
-        rect.setWidth(4);
-        rect.setHeight(5);
-        System.out.println(rect.getArea()); // Expected 20, but gets 25
+//        Rectangle rect = new Square();
+//        rect.setWidth(4);
+//        rect.setHeight(5);
+//        System.out.println(rect.getArea()); // Expected 20, but gets 25
+
+        Square rect = new Square(4);
+        System.out.println(rect.getArea());
+
     }
 /*
     This violates LSP because substituting Square for Rectangle breaks correctness.

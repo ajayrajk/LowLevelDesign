@@ -1,11 +1,13 @@
-package org.solid.principle.liskov;
+package org.solid.principle.liskov.withLSP;
 
-public class RectangleSolved implements Shape{
+import org.solid.principle.liskov.withLSP.Shape;
+
+public class Rectangle implements Shape {
 
     protected int width;
     protected int height;
 
-    public RectangleSolved(int width, int height) {
+    public Rectangle(int width, int height) {
         this.width = width;
         this.height = height;
     }
