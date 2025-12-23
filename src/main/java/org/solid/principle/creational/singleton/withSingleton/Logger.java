@@ -1,11 +1,10 @@
-package org.solid.principle.creational.withSingleton;
+package org.solid.principle.creational.singleton.withSingleton;
 
 public class Logger {
      private static Logger  logger;
 
      // Create a private constructor because from outside the class no once can create that object
      private Logger(){
-
      }
 
      public static Logger getInstance(){

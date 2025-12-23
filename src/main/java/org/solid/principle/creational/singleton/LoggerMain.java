@@ -1,4 +1,6 @@
-package org.solid.principle.creational;
+package org.solid.principle.creational.singleton;
+
+import org.solid.principle.creational.singleton.Logger;
 
 public class LoggerMain {
     Logger logger1=new Logger();
