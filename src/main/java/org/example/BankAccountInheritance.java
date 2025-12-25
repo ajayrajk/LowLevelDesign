@@ -16,7 +16,12 @@ public class BankAccountInheritance {
 
 class SavingsAccount extends BankAccount {
     double interestRate;
-    public void addInterest() {
+
+    public SavingsAccount(String accountNumber, double balance) {
+        super(accountNumber, balance);
+    }
+
+    public void addInterest(double balance) {
         balance += balance * interestRate;
     }
 }
