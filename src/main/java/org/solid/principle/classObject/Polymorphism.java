@@ -21,10 +21,10 @@ public class Polymorphism {
     }
     public class Main {
         public static void main(String[] args) {
-            BankAccount account1 = new SavingsAccount();
+           /* BankAccount account1 = new SavingsAccount();
             BankAccount account2 = new CheckingAccount();
             account1.calculateInterest(); // Output: Calculating interest for savings account
-            account2.calculateInterest(); // Output: No interest for checking account
+            account2.calculateInterest(); // Output: No interest for checking account*/
         }
     }
 }

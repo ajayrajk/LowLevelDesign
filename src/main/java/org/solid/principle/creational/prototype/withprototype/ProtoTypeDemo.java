@@ -8,9 +8,9 @@ public class ProtoTypeDemo {
         Enemy orc1=(Enemy)baseOrc.clone();
         Enemy orc2=(Enemy)baseOrc.clone();
 
-        System.out.println(orc1);
+        System.out.println(orc1.clone());
 
-        System.out.println(orc2);
+        System.out.println(orc2.toString());
 
     }
 }
