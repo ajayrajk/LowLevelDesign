@@ -7,7 +7,7 @@ public class ChatUser extends User{
 
     @Override
     void send(String message) {
-        chatMediator.sendMessage(message,this);
+        //chatMediator.sendMessage(message,this);
     }
 
     @Override

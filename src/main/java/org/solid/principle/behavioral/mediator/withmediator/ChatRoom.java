@@ -12,8 +12,8 @@ public class ChatRoom implements ChatMediator{
     @Override
     public void sendMessage(String messages, User sender) {
         for (User user:users){
-            if (user!=sender)
-                user.sendMessage();
+            //if (user!=sender)
+                //user.sendMessage();
         }
     }
 
