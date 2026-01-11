@@ -1,6 +1,6 @@
-package org.solid.principle.dry.withdry;
+package org.basicoops.dry.withdry;
 
-public class RegistrationForm {
+public class LoginForm {
     private Validator validator=new Validator();
 
     public boolean validate(String email,String password){

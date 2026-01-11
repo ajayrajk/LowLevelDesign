@@ -1,4 +1,4 @@
-package org.solid.principle;
+package org.basicoops;
 
 public class JiskovSubstitution {
 

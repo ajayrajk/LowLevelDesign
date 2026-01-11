@@ -1,6 +1,6 @@
-package org.solid.principle.dry;
+package org.basicoops.dry;
 
-public class LoginForm {
+public class Registration {
 
     public boolean validate(String email, String password) {
         if (email == null || email.isEmpty())

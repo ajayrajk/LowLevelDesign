@@ -1,4 +1,4 @@
-package org.solid.principle.classObject;
+package org.basicoops.classObject;
 
 public class Polymorphism {
 

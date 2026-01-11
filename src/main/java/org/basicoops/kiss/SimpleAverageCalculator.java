@@ -1,4 +1,4 @@
-package org.solid.principle.kiss;
+package org.basicoops.kiss;
 
 import java.util.List;
 

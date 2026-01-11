@@ -1,4 +1,4 @@
-package org.solid.principle.classObject;
+package org.basicoops.classObject;
 
 // Definition of a class
 public class BankAccount {

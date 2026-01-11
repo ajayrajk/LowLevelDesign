@@ -1,4 +1,4 @@
-package org.solid.principle.dry.withdry;
+package org.basicoops.dry.withdry;
 
 public class Validator {
 

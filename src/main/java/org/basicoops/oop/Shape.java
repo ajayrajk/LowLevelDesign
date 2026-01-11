@@ -1,4 +1,4 @@
-package org.solid.principle.oop;
+package org.basicoops.oop;
 
 abstract class Shape {
     abstract void draw(); // Abstract method, to be implemented by subclasses
