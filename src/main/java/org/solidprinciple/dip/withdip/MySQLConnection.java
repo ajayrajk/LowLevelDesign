@@ -1,4 +1,4 @@
-package org.solid.principle.dip.withdip;
+package org.solidprinciple.dip.withdip;
 
 public class MySQLConnection implements DBConnectionInterface{
 
@@ -6,4 +6,5 @@ public class MySQLConnection implements DBConnectionInterface{
     public String connect() {
         return "Database connected";
     }
+
 }

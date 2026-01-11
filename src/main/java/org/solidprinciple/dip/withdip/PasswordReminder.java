@@ -1,4 +1,4 @@
-package org.solid.principle.dip.withdip;
+package org.solidprinciple.dip.withdip;
 
 public class PasswordReminder {
     private DBConnectionInterface dbConnection;
@@ -6,4 +6,5 @@ public class PasswordReminder {
     public PasswordReminder(DBConnectionInterface dbConnection) {
         this.dbConnection = dbConnection;
     }
+
 }

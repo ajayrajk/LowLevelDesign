@@ -1,5 +1,6 @@
-package org.solid.principle.dip.withdip;
+package org.solidprinciple.dip.withdip;
 
 public interface DBConnectionInterface {
     String connect();
+
 }
