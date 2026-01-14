@@ -1,0 +1,15 @@
+package org.java8;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class SumOfNumbers {
+
+    public static void main(String[] args) {
+        List<Integer> numbers= Arrays.asList(12,23,45,56,68,78,79,97);
+        int sum=numbers.stream().mapToInt(Integer::intValue)
+                .sum();
+
+        System.out.println(sum);
+    }
+}

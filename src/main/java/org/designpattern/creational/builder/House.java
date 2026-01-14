@@ -1,6 +1,12 @@
 package org.designpattern.creational.builder;
 
 public class House {
+   /* The Builder pattern separates the construction of a complex object from its
+    representation. It allows the step-by-step creation of objects, providing greater control
+    over the construction process and enabling the production of different representations
+    of an object using the same construction code. This pattern is particularly useful
+    when an object requires multiple steps to be created or when the construction process
+    involves numerous parameters.*/
     private String foundation;
     private String walls;
     private String roof;

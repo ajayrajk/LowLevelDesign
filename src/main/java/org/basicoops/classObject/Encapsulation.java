@@ -12,5 +12,6 @@ public class Encapsulation {
         public double getBalance() { // Public method to access balance
             return balance;
         }
+
     }
 }
