@@ -12,6 +12,7 @@ public class Rectangle implements Shape{
     public double area() {
         return length*width;
     }
+
 }
 
 

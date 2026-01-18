@@ -11,8 +11,10 @@ public class MacFactory implements UIFactory{
         return new MacButton();
     }
 
+
     @Override
     public CheckBox createCheckBox() {
         return new MacCheckBox();
     }
+
 }

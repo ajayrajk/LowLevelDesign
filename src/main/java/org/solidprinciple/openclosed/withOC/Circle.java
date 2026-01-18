@@ -2,6 +2,7 @@ package org.solidprinciple.openclosed.withOC;
 
 public class Circle implements Shape{
     double radius;
+
     Circle(double radius) {
         this.radius = radius;
     }
@@ -11,4 +12,5 @@ public class Circle implements Shape{
     public double area() {
         return Math.PI * radius * radius;
     }
+
 }
