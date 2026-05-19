@@ -6,4 +6,5 @@ public class LedDisplay implements Observer{
     public void update(int temperature) {
         System.out.println("Temperature have changed to "+temperature);
     }
+
 }

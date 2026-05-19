@@ -7,6 +7,14 @@ public class House {
     of an object using the same construction code. This pattern is particularly useful
     when an object requires multiple steps to be created or when the construction process
     involves numerous parameters.*/
+
+    /*
+    ❓ Interview Question
+     “Design immutable object with many optional fields”
+    * 🧠 Real Use
+         DTOs
+         API request objects
+    * */
     private String foundation;
     private String walls;
     private String roof;

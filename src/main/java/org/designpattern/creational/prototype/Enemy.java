@@ -11,6 +11,6 @@ public class Enemy {
         this.weapon = weapon;
     }
 
-    //Expensive operations her hots of DB calls
+    //Expensive operations here lots of DB calls
     //(its common operation and not an enemy operation
 }
